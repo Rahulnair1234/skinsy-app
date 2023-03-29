@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:layout_gravity="center">
+
+
+    <TextView
+        android:id="@+id/user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome User"
+        android:textSize="50dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"></TextView>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="200dp"
+
+
+        android:text="Algorithm 1"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:background="@drawable/rounded_button"
+        android:textColor="#F6F0F0"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:text="Algorithm 2"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:background="@drawable/rounded_button"
+        android:textColor="#F6F0F0"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button2"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:text="Algorithm 3"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:background="@drawable/rounded_button"
+        android:textColor="#F6F0F0"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button3"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:text="View Previous Records"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:background="@drawable/rounded_button"
+        android:textColor="#F6F0F0"/>
+
+</RelativeLayout>

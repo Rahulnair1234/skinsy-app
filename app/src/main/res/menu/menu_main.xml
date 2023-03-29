@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.myskin.MainActivity">
+    <item
+        android:id="@+id/logout"
+        android:orderInCategory="100"
+        android:title="logout"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_action_logout"
+        />
+    <item
+        android:id="@+id/info"
+        android:orderInCategory="80"
+        android:title="status"
+        app:showAsAction="always"
+        android:icon="@drawable/info"
+        />
+</menu>
